@@ -1,9 +1,15 @@
 import "./App.css";
+import { motion } from "framer-motion";
 
 function App() {
+
+
   return (
     <div className="App">
-      <form>
+      <motion.form 
+      initial={{ x: "0", y: "0" }}
+      animate={{rotate: '127', background: "blue",right: "0", top: "50%"}}
+      >
         <h1>Create An Account</h1>
         <label>
           Email:
@@ -14,7 +20,7 @@ function App() {
           <input name="password" type="password" required />
         </label>
         <button>Sign Up!</button>
-      </form>
+      </motion.form>
     </div>
   );
 }
