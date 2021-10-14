@@ -9,7 +9,7 @@ function App() {
       <motion.form 
       initial={{ x: "0", y: "0"}}
       animate={{rotate: '127'}}
-      style={{transform: "translateX(0px) translateY(0px) translateZ(0px)"}}
+      style={{transform: "translateY(0px) translateZ(0px)"}}
       >
         <h1>Create An Account</h1>
         <label>
