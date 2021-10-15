@@ -7,8 +7,10 @@ function App() {
   return (
     <div className="App">
       <motion.form 
-      animate={{x: 50, rotate: 120, translateX: '30px'}}
-      initial={{translateX: '0px', translateY: '0px', translateZ: '0px'}}
+      initial={{x: '100vw'}}
+      animate={{x : 0}}
+      transition={{type: 'spring', delay: 0.5}}
+      
       
       
       >
