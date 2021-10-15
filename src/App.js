@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <motion.form 
-      initial={{ x: 0}}
+      initial={{ x: 50}}
       animate={{rotate: '127'}}
       style={{translateX: '50px'}}
       >
