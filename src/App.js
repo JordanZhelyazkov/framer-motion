@@ -7,9 +7,9 @@ function App() {
   return (
     <div className="App">
       <motion.form 
-      initial={{ x: 50}}
-      animate={{rotate: '127'}}
-      style={{translateX: 'none'}}
+      initial={{ x: 0}}
+      animate={{translateX: '50px'}}
+      
       >
         <h1>Create An Account</h1>
         <label>
