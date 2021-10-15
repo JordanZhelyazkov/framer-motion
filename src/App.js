@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <motion.form 
-      animate={{x: 50, rotate: 120}}
+      animate={{x: 50, rotate: 120, translateX: '30px'}}
       initial={{translateX: '0px', translateY: '0px', translateZ: '0px'}}
       
       
