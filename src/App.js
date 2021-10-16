@@ -1,19 +1,18 @@
 import "./App.css";
-import { motion, transform } from "framer-motion";
+import { motion } from "framer-motion";
 
 function App() {
 
-const value = 48;
+const value = 48 + 'px';
+const initValue = 0 + 'px';
   return (
     <div className="App">
       <motion.form 
-      
-      initial={{x: 0}}
-      animate={{translateX: value + 'px'}}
+      animate={{x: 0, translateX: initValue }}
+      initial={{translateX: value }}
       
       transition={{type: 'spring', delay: 0.5}}
-      
-      // x: 48, 
+
       
       >
         <h1>Create An Account</h1>
