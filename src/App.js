@@ -3,15 +3,12 @@ import { motion } from "framer-motion";
 
 function App() {
 
-const value = 48 + 'px';
-const initValue = 0 + 'px';
+
   return (
     <div className="App">
       <motion.form 
-      animate={{translateX: initValue }}
-      initial={{translateX: value }}
-      
-      transition={{type: 'spring', delay: 0.5}}
+       initial={{x:100}}
+       animate={{x:0}}
 
       
       >
