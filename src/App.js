@@ -8,7 +8,7 @@ const initValue = 0 + 'px';
   return (
     <div className="App">
       <motion.form 
-      animate={{x: 0, translateX: initValue }}
+      animate={{translateX: initValue }}
       initial={{translateX: value }}
       
       transition={{type: 'spring', delay: 0.5}}
